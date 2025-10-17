@@ -1,4 +1,4 @@
-hari_kuliah = ["senin", "rabu", "jumat"]
+hari_kuliah = ["senin", "rabu", "jumat", "jum'at"]
 hari_kerja = ["selasa", "kamis", "sabtu"]
 hari_libur = ["minggu"]
 
