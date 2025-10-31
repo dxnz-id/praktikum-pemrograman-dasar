@@ -1,5 +1,6 @@
-# TUGAS 1
-
+##################################################
+##################### Task 1 #####################
+##################################################
 def tugas1() :
   nilai1 =  int(input("Masukkan nilai 1: "))
 
@@ -19,7 +20,9 @@ def tugas1() :
     else :
       print("Belajar lebih giat")
 
-# TUGAS 2
+##################################################
+##################### Task 2 #####################
+##################################################
 def tugas2() :
   print("LIBURANYUK | Menjual tiket murah dengan tujuan LabuanBajo")
   print("[A] MaskapaiSupreme  : Rp. 1.000.000/ticket")
@@ -63,6 +66,8 @@ def tugas2() :
     print("Anda mendapat topi")
 
 
+##################################################
+################# Task Selection #################
 ##################################################
 tugas = int(input("Mau jalanin tugas berapa: "))
 if tugas == 1:
