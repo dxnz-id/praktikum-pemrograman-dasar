@@ -31,11 +31,11 @@ def tugas2() :
 
   # Input
   maskapai = input("Pilih maskapai [A/B/C]: ").lower()
-  if maskapai != "a" or maskapai != "b" or maskapai != "c":
+  if maskapai != "a" and maskapai != "b" and maskapai != "c":
     print("Invalid maskapai")
     exit()
   ticket = int(input("jumlah ticket: "))
-  isOnline = input("Beli secara online [Y/N]: ").lower()
+  isOnline = input("Beli secara online [Y/n]: ").lower() or "y"
 
   # Total
   total = 0
