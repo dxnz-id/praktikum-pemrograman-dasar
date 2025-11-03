@@ -51,13 +51,13 @@ def tugas2() :
   # Discount
   if isOnline == "y" :
     print("Selamat, anda mendapat diskon 10%")
-    print("Harga sebelum diskon: ", f"{total:,}")
+    print("Harga sebelum diskon :", f"{total:,}")
     disc = int(total - total * .1)
-    print("Total pembelian anda:", f"{disc:,}")
+    print("Total pembelian anda :", f"{disc:,}")
   elif isOnline == "n" :
-    print("Total pembelian anda:", f"{total:,}")
+    print("Total pembelian anda :", f"{total:,}")
 
-  # Voucher
+  # Bonus
   if total > 10000000 :
     print("Anda mendapat voucher belanja")
   elif total > 5000000 :
