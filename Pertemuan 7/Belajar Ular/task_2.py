@@ -8,7 +8,7 @@ def task_2() :
   # Ticket
   while True:
     maskapai = input("Pilih maskapai [A/B/C]: ").lower()
-    if maskapai in ("a", "b", "c"):
+    if maskapai in ("a", "b", "c", "1", "2", "3"):
       break
     print("Maskapai tidak valid, silakan masukkan nilai yang benar.")
   while True :
@@ -22,11 +22,11 @@ def task_2() :
       print("Jumlah tiket tidak valid, silakan masukkan nilai yang benar.")
 
   total = 0
-  if maskapai == "a" :
+  if maskapai in ("a", "1"):
     total = (1000000 * ticket)
-  elif maskapai == "b" :
+  elif maskapai in ("b", "2") :
     total = (800000 * ticket)
-  elif maskapai == "c" :
+  elif maskapai in ("c", "3") :
     total = 500000 * ticket
 
   # Is Online / Discount
